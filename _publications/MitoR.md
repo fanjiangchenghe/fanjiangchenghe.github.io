@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/MitoR
 date: 2025-02-18
 venue: 'Mathematics'
+image: /images/publications/mitor.png
 ---
 
 + Authors: <b>Anna Jiang</b><sup>#</sup>, Chengshang Lyu<sup>#</sup>, Yue Zhao<sup>*</sup>.

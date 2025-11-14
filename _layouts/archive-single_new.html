@@ -1,0 +1,35 @@
+<article class="pub-item">
+  <div class="pub-flex">
+    
+    {% if post.image %}
+      <div class="pub-img">
+        <img src="{{ post.image }}" alt="thumbnail">
+      </div>
+    {% endif %}
+
+    <div class="pub-text">
+      <a class="pub-title" href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+
+      {% if post.authors %}
+        <div class="pub-authors">{{ post.authors }}</div>
+      {% endif %}
+
+      <div class="pub-meta">
+        {% if post.date %}
+          <span class="pub-year">{{ post.date | date: "%Y" }}</span>
+        {% endif %}
+
+        {% if post.venue %}
+          <span class="pub-venue">{{ post.venue }}</span>
+        {% endif %}
+      </div>
+
+      {% if post.abstract %}
+        <div class="pub-abstract">{{ post.abstract }}</div>
+      {% endif %}
+    </div>
+
+  </div>
+</article>

@@ -1,0 +1,67 @@
+/* ---- 极简 publications 样式 ---- */
+
+.pub-item {
+  margin-bottom: 28px;
+}
+
+.pub-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.pub-img img {
+  width: 110px;
+  height: auto;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+.pub-img img:hover {
+  opacity: 1;
+}
+
+.pub-text {
+  flex: 1;
+}
+
+.pub-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+}
+
+.pub-title:hover {
+  opacity: 0.7;
+}
+
+.pub-authors {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 4px 0 6px;
+}
+
+.pub-meta {
+  font-size: 0.82rem;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.pub-year {
+  font-weight: 500;
+  margin-right: 10px;
+  color: #444;
+}
+
+.pub-venue {
+  color: #666;
+  font-style: italic;
+}
+
+.pub-abstract {
+  color: #555;
+  font-size: 0.88rem;
+  line-height: 1.46;
+  margin-top: 6px;
+}

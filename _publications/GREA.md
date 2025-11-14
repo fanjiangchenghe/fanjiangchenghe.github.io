@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/GREA
 date: 2025-04-20
 venue: 'bioRxiv'
+image: /images/publications/grea.png
 ---
 
 + Authors: Xiaoyu LIU<sup>#</sup>, <b>Anna JIANG</b><sup>#</sup>, Chengshang LYU, Lingxi CHEN<sup>*</sup>.
